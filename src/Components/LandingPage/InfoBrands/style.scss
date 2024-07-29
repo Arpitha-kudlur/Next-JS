@@ -1,0 +1,46 @@
+#infoBrands_container {
+  width: 100%;
+  display: flex;
+
+  gap: 80px;
+  // margin: 50px;
+
+  .image-container {
+    width: 50%;
+    .lap-img {
+      border-radius: 12px;
+      width: 100%;
+    }
+  }
+  .info-container {
+   
+    width: 50%;
+    h2 {
+      font-size: 44px;
+      
+      font-family: "__Inter_aaf875";
+    }
+    .discover {
+      font-size: 22px;
+      font-family: "__Inter_aaf875";
+      color: #333b43;
+      line-height: 35px;
+    }
+    .price-quality-info-container {
+      width: 100%;
+      display: flex;
+      gap: 60px;
+      
+      .price-info-container {
+        width: 50%;
+      }
+      .quality-info-container {
+        width: 50%;
+      }
+      h6 {
+        font-family: "__Inter_aaf875";
+        font-size: 25px;
+      }
+    }
+  }
+}
